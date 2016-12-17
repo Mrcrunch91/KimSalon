@@ -1,0 +1,976 @@
+@media screen and (min-width:64em){ 
+body{		
+	height : 100%;
+	color : #808080;
+	font-family : Arial;
+	background : linear-gradient(0deg, #4F6D93,white 90%) no-repeat;
+	width:100%;
+}
+
+header{	
+	background-color:#000033;color: #FFFFFF;margin-bottom:0;
+	font-size: 30px;font-weight:bold;
+	background-image: url(images/sunset.jpg);
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding-top: .5em;
+	height: 60px;
+	text-align: center;
+	font-size: 30pt;
+	font-family: georgia
+}
+
+
+nav ul{
+	list-style: none;
+	font-size: 1.2em;
+	float: left;
+	width:160px;	
+	padding: 0px;
+	margin-left: 20px;
+}
+
+nav a{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+main ul{
+	list-style-image: url("images/marker.gif");	
+}
+
+a:link{
+	color: #000033;
+}
+
+a:visited{
+	color: #344873;
+}
+a:hover{
+	color:#FFFFFF;
+}
+
+#main-image{
+	padding-top: 30px;		
+	background-image: url(images/coast-main.jpg);
+	height:300px;
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+	margin-left:190px;
+
+}
+
+main{
+	background-color: #FFFFFF;
+	margin-left: 16.4%;
+	padding-left: 5%;
+	padding-top: 5px;		
+	width:78.6%;
+}
+
+#newMain{
+	background-color: #FFFFFF;
+	margin-left: 20%;
+	padding-left: 30px;
+	padding-top: 1em;
+	width: 75.5%;
+	
+}
+
+#accommodations-image{
+	
+	height:300px;
+	background-image: url(images/bungalow-main.jpg);
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+	margin-left:190px;
+}
+#activities-image{
+	padding-top: 30px;	
+	height:300px;
+	background-image:url(images/trail-main.jpg);
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+	margin-left:190px;
+}
+
+#wrapper{	
+	vertical-align: middle;
+	width: 85%;			
+	background-color: #90C7E3;
+	box-shadow:3px 3px #333333;
+	min-width: 50%;
+	max-width: 100%;	
+	margin-left: 6%;	
+}
+
+footer{
+	font-size: 75%;
+	font-family: Georgia;
+	font-style: italic; 
+	text-align: center;
+	padding: 20px;
+	background-color: #FFFFFF;
+	width: 77.3%;
+	margin-left: -20%;
+}
+
+#beef{
+	font-size: 75%;
+	font-family: Georgia;
+	font-style: italic; 
+	text-align: center;
+	padding: 20px;	
+	background-color: #90C7E3;
+	width: 105.6%;
+	margin-left: -10%;
+
+}
+
+
+nav.one{
+	font-weight: bold;	
+}
+.one a{
+	text-decoration: none;
+}
+
+h2{
+	color:#3399CC;
+	font-family: Times;
+	font-weight: bold;
+	font-size: 25pt;
+
+}
+
+dt,h3{
+	color:#000033;
+	font-family: Times;
+	font-weight: bold;
+}
+
+.resort{
+	color:#5C7FA3;
+	font-weight: bold;
+}
+
+h1{
+	font-family: Times;
+	margin-top: 0;
+}
+.theZoom{
+
+
+}
+
+.contact{
+	padding-top: 10px;
+	font-size: 90%;
+	padding-bottom: 2%;
+}
+
+
+p.copyright{
+	text-align: center;
+}
+
+table{
+	border-spacing: 0;
+	border-collapse: collapse;	
+	width:90%;
+	margin: 20px auto; 
+
+}
+
+
+td{	
+	border: 2px solid #4d94ff;
+	text-align: center;
+	color: black;
+	padding-bottom: 7px;	
+}
+
+label{
+	font-size: 14pt;
+	font-weight: bold;
+	color: black;
+	font-family: Georgia;
+}
+
+
+ table thead,th{
+	border: 2px solid #4d94ff;
+	background:#000066;
+	color:white;
+	height: 55px;
+	width:150px;    
+}
+
+tr:nth-child(even) {
+	background-color: #cce6ff;
+}
+
+
+tr:nth-child(odd) {
+	background-color: white;
+}
+
+#table-1 .left{
+	text-align: left;
+}
+
+#table-1 a{
+	color: blue;
+}
+.mobiletel {
+	display: none;
+}
+
+p label{	
+	display: inline-block;
+	width:15%;	
+	text-align: right;
+	color: #808080 ;
+	font-size: 12pt;
+	padding-right:5px;
+	font-family: Times;	
+}
+
+
+input[type = submit]{
+	background-color: #90C7E3;
+	position: relative;
+	left: 5%;	
+}
+input[type = number]{
+	width: 10%;
+	-moz-appearance: textfield;
+}
+input[id = "myPhone"]{
+	width: 31.5%;
+}
+
+
+p input{	
+	text-align: left;
+		
+}
+
+textarea{
+	width: 35%;	
+	font-size: 5px;
+}
+.goat{
+	height:40%;
+	position: relative;
+	bottom: 2.5em;
+}
+
+#hoom{
+	display: inline-block;
+	padding-top: 5px;
+	width: 100%;
+}
+
+#tree{
+	position: relative;
+	bottom: 10px;
+	width: 100%;
+}
+
+form{
+	background-color: #d9d9d9;	
+	box-shadow: 2px 2px  #d9d9d9;	
+	padding-bottom: 2em;
+	width:97%;
+	border-color:#90C7E3;
+	border-style: solid;
+	border-width: .125em;
+
+	}
+
+.highlight1 td{
+	background: yellow!important;	
+	color:red!important;
+}
+
+.comments{
+	height:3em;
+	width:50%;
+	font-size: 12pt;
+}
+
+input[id = "myFName"]{
+	width:35%;
+}
+
+input[id = "myLName"]{
+	width:35%;
+}
+
+input[id = "myEmail"]{
+	width:65%;
+}
+
+input[id = "myArrival"]{
+	width:20%;
+}
+ fieldset{
+ 	border:0;
+ }
+
+}
+
+
+
+
+
+
+@media only screen and (min-device-width: 37.6em ) and (max-device-width:64em){
+
+	body{
+		background-color : white;		
+		color : #8c8c8c;
+		font-family : Arial;		
+		margin-top: -.25%;
+		width:100%;
+		margin-top: 0%;
+		margin-bottom: -50%;
+		
+	}
+
+	header{	
+		background-color:#000033;
+		color: #FFFFFF;
+		margin-bottom:0;
+		font-size: 30px;font-weight:bold;
+		background-image: url(images/sunset.jpg);
+		background-repeat: no-repeat;
+		background-position: top right;
+		padding-top: 15px;
+		height: 60px;
+		text-align: center;		
+	}
+
+	nav ul {
+		font-weight: bold;
+		list-style: none;
+		font-size: 1.2em;
+		float: none;
+		width:auto;			
+		margin: 0;			
+		overflow: hidden;	
+		padding-bottom: 0.25em;
+		padding-left: 0.75em;
+		padding-right: 0.75em;
+		padding-top: 0.25em;
+		text-align: center;
+	}
+
+	nav li {
+		float: none;
+		display: inline;
+	}
+
+	nav li a{
+		padding: 0.5em;			
+		text-decoration: none;		
+	}
+	
+
+	main ul{
+		list-style-image: url("images/marker.gif");	
+	}
+
+	a:link{
+		color: #000033;
+	}
+
+	a:visited{
+		color: #344873;
+	}
+	a:hover{
+		color:#FFFFFF;
+	}
+
+	#main-image{
+		padding-top: 30px;		
+		background-image: url(images/coast-main.jpg);
+		height:200px;
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+		margin-left:0px;
+
+	}
+
+	main{
+		background-color: white;
+		margin-left: 0px;
+		padding-left: 30px;
+		padding-top: 20em;
+		padding: 20px;	
+		width: auto;	
+		height: 40em;		
+	}
+
+	#accommodations-image{
+
+		height:200px;
+		background-image: url(images/bungalow-main.jpg);
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+		margin-left:0px;
+	}
+	#activities-image{
+		padding-top: 30px;	
+		height:200px;
+		background-image:url(images/trail-main.jpg);
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+		margin-left:0px;
+	}
+
+	#wrapper{	
+		vertical-align: middle;
+		width: auto;
+		margin-top: 0px;
+		margin-left:-1%;	
+		background-color: #90C7E3;
+		box-shadow:none;
+		min-width:0px;
+		
+	}
+
+	footer{
+		font-size: 75%;
+		font-family: Georgia;
+		font-style: italic; 
+		text-align: center;
+		padding: 20px;
+		background-color: #90C7E3;
+		width:auto;
+		margin-left: -5em;
+		
+	}	
+
+	h2{
+		color:#3399CC;
+		font-family: Times;
+		font-weight: bold;
+	}
+
+	dt,h3{
+		color:#000033;
+		font-family: Times;
+		font-weight: bold;
+	}
+
+	.resort{
+		color:#5C7FA3;
+		font-weight: bold;
+
+	}
+
+	h1{
+		font-family: Times;
+		margin-top: 0;
+	}
+	.theZoom{
+
+
+	}
+
+	.contact{
+		font-size: 90%;
+		padding-top: 1em;
+		padding-bottom: 1em;
+
+	}
+
+	p.copyright{
+		text-align: center;
+	}
+
+	table{
+		border-spacing: 0;
+		border-collapse: collapse;	
+		width:70%;
+		margin: 20px auto; 
+
+	}
+
+	td{	
+		border: 2px solid #4d94ff;
+		text-align: center;
+		color: black;
+		padding-bottom: 7px;	
+	}
+
+	label{
+		font-size: 14pt;
+		font-weight: bold;
+		color: black;
+		font-family: Georgia;
+	}
+
+
+	#table-1 thead,th{
+		border: 2px solid #4d94ff;
+		background:#000066;
+		color:white;
+		height: 55px;    
+	}
+
+	tr:nth-child(even) {
+		background-color: #cce6ff;
+	}
+
+
+	tr:nth-child(odd) {
+		background-color: white;
+	}
+
+	#table-1 .left{
+		text-align: left;
+	}
+
+	#table-1 a{
+		color: blue;
+	}
+
+	.mobiletel{
+	display: none;
+}
+
+input[type = submit]{
+	background-color: #90C7E3;
+	position: relative;
+	left: 5%;	
+}
+input[type = number]{
+	width: 5%;
+	-moz-appearance: textfield;
+}
+input[type = tel]{
+	width: 31.5%;
+}
+
+input[id = "myFName"]{
+	width:35%;
+}
+
+input[id = "myLName"]{
+	width:35%;
+}
+
+input[id = "myEmail"]{
+	width:50%;
+}
+
+input[id = "myArrival"]{
+	width:15%;
+}
+
+.goat{
+	height:40%;
+	position: relative;
+	bottom: 1.5em;
+
+}
+
+#hoom{
+	padding-top: 5px;
+}
+
+#tree{
+	position: relative;
+	bottom: 1em;
+	width: 100%;
+}
+
+form{
+	background-color: #d9d9d9;	
+	box-shadow: 3px 3px  #d9d9d9;	
+	padding-bottom: 2em;
+	border-color:#90C7E3;
+	border-style: solid;
+	border-width: .125em;
+
+	}
+
+.highlight1 td{
+	background: yellow!important;	
+	color:red!important;
+}
+
+.comments{
+	height:3em;
+	width:50%;;
+}
+
+p label{	
+	display: inline-block;
+	width:20%;	
+	text-align: right;
+	color: #808080 ;
+	font-size: 12pt;
+	padding-right:5px;
+	font-family: Times;	
+}
+
+#beef{
+	font-size: 75%;
+	font-family: Georgia;
+	font-style: italic; 
+	text-align: center;
+	padding: .5em;	
+	background-color: #90C7E3;
+	width: 105.6%;
+	margin-left: -5%;
+
+}
+
+#tuna{
+	background-color: white;
+	position: relative;
+	margin-bottom: 27%;
+	margin-top: 5%;
+}
+
+fieldset{
+ 	border:0;
+ }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:37.5em){ 
+
+	body{
+		width: auto;
+		background-color: white;
+		height: 500px;
+		color: #737373;
+		font-family: Arial;		
+		margin: 0;
+	}
+
+	header{	
+		width: auto;
+		background-color:#000033;
+		color: #FFFFFF;
+		font-size: 1.5em;
+		font-weight:bold;
+		background-image: url(images/sunset.jpg);
+		background-repeat: no-repeat;
+		background-position: top right;
+		padding-top: 1em;		
+		height: 40px;
+		text-align: center;				
+	}
+	nav{
+		margin-left: -50px;
+	}	
+
+	nav ul{	
+		font-weight: bold;
+		list-style: none;
+		font-size: 1.2em;
+		float: none;
+		width:auto;			
+		margin: 0;			
+		overflow: hidden;			
+		text-align: center;					
+	}
+
+	nav li{			 		
+		display:block;	
+		border-bottom: 2px solid #330000;		
+
+	}
+
+	nav a{			
+		text-decoration: none;				
+	}
+
+	main ul{
+		list-style-image: url("images/marker.gif");	
+	}
+
+	a:link{
+		color: #000033;
+	}
+
+	a:visited{
+		color: #344873;
+	}
+	a:hover{
+		color:#FFFFFF;
+	}
+
+
+	#main-image{
+		padding-top: 0px;		
+		background-image:none;
+		height:0;
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+		margin-left:0px;
+
+	}
+
+	main{
+		background-color: #FFFFFF;		
+		padding-left: 1em;
+		padding-right: 1em;
+		padding-top: 0.1em;
+		padding-bottom: 0.1em;
+		width: auto;	
+		font-size: 90%;	
+		margin-left:0;	
+			
+	}
+
+	#accommodations-image{
+
+		height:0px;
+		background-image:none;
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+		margin-left:0px;
+	}
+
+	#activities-image{
+		padding-top: 0px;	
+		height:0px;
+		background-image:none;
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+		margin-left:0px;
+	}
+
+	#wrapper{			
+		background-color: #90C7E3;				
+	}
+
+	footer{
+		font-size: 75%;
+		font-family: Georgia;
+		font-style: italic; 
+		text-align: center;
+		padding: 10px;
+		background-color: #FFFFFF;
+		color: #808080;
+		width: 105%;
+		margin-left: -3%;
+		
+	}
+
+	
+	h2{
+		color:#3399CC;
+		font-family: Times;
+		font-weight: bold;
+	}
+
+	dt,h3{
+		color:#000033;
+		font-family: Times;
+		font-weight: bold;
+	}
+
+	.resort{
+		color:#5C7FA3;
+		font-weight: bold;
+	}
+
+	h1{
+		font-family: Times;
+		margin-top: 0;
+		font-size: 1.5em;
+	}
+
+	.contact a[href^=tel]{		
+		font-size: 90%;
+		color:blue;	
+			
+	}
+	.contact{
+		padding-bottom: 1em;
+	}
+
+	p.copyright{
+		text-align: center;
+	}
+
+	table{
+		display:none;
+		border-spacing: 0;
+		border-collapse: collapse;	
+		width:70%;
+		margin: 20px auto; 
+
+	}
+
+	td{	
+		border: 2px solid #4d94ff;
+		text-align: center;
+		color: black;
+		padding-bottom: 7px;	
+	}
+
+	label{
+		font-size: 14pt;
+		font-weight: bold;
+		color: black;
+		font-family: Georgia;
+		display:block;
+	}
+
+
+	#table-1 thead,th{
+		border: 2px solid #4d94ff;
+		background:#000066;
+		color:white;
+		height: 55px;    
+	}
+
+	tr:nth-child(even) {
+		background-color: #cce6ff;
+	}
+
+
+	tr:nth-child(odd) {
+		background-color: white;
+	}
+
+	#table-1.left{
+		text-align: left;
+	}
+
+	#table-1 a{
+		color: blue;
+	}
+
+	.desktel{
+		display:none;
+	}
+
+
+input[type = submit]{
+	background-color: #90C7E3;
+	position: relative;
+	left: 5%;	
+}
+input[type = number]{
+	width: 10%;
+	-moz-appearance: textfield;
+}
+input[type = tel]{
+	width: 55%;;
+}
+
+input[id = "myFName"]{
+	width:55%;
+}
+
+input[id = "myLName"]{
+	width:55%;
+}
+
+input[id = "myEmail"]{
+	width:70%;
+}
+
+input[id = "myArrival"]{
+	width:25%;
+}
+
+.goat{
+	height:40%;
+	position: relative;
+	bottom: .25em;
+	display: block;
+	text-align: left;
+
+}
+
+#hoom{
+	padding-top: 5px;
+	position:relative;
+	display:block;
+}
+
+#tree{
+	position: relative;
+	bottom: 1em;
+	width: 100%;
+}
+
+form{
+	background-color: #d9d9d9;	
+	box-shadow: 3px 3px  #d9d9d9;	
+	padding-bottom: 2em;
+	border-color:#90C7E3;
+	border-style: solid;
+	border-width: .125em;
+
+	}
+
+.highlight1 td{
+	background: yellow!important;	
+	color:red!important;
+}
+
+.comments{
+	height:3em;
+	width:75%;
+	margin-left: 3%;
+}
+
+p label{	
+	display: inline-block;
+	width:125px;	
+	text-align: right;
+	color: #808080 ;
+	font-size: 12pt;
+	padding-right:5px;
+	font-family: Times;	
+	text-align: left;
+	margin-left: 3%;
+}
+
+#beef{
+	background-color: #90C7E3;
+	margin-left: -5%;
+}
+
+#tuna{
+	background-color: white;
+	position: relative;
+	margin-bottom: 10%;
+	margin-top: 5%;	
+}
+
+input{
+	display: block;
+	text-align: left;
+	margin-left: 3%;
+}
+
+fieldset{
+ 	border:0;
+ }
+
+}
+
+
