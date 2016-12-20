@@ -3,13 +3,16 @@ body{
 	height : 100%;
 	color : #808080;
 	font-family : Arial;
-	background : linear-gradient(0deg, #4F6D93,white 90%) no-repeat;
+	background : linear-gradient(0deg, #00e600,white 90%) no-repeat;
 	width:100%;
 }
 
 header{	
-	background-color:#000033;color: #FFFFFF;margin-bottom:0;
-	font-size: 30px;font-weight:bold;
+	background-color:#00e600;
+	color: #FFFFFF;
+	margin-bottom:0;
+	font-size: 30px;
+	font-weight:bold;
 	background-image: url(images/sunset.jpg);
 	background-repeat: no-repeat;
 	background-position: top right;
@@ -97,7 +100,7 @@ main{
 #wrapper{	
 	vertical-align: middle;
 	width: 73%;			
-	background-color: #90C7E3;
+	background-color: #ff471a;
 	box-shadow:3px 3px #333333;
 	min-width: 50%;
 	max-width: 100%;	
@@ -111,7 +114,7 @@ footer{
 	text-align: center;
 	padding: 20px;
 	background-color: #FFFFFF;
-	width: 77.3%;
+	width: 75.3%;
 	margin-left: -20%;
 }
 
@@ -121,9 +124,10 @@ footer{
 	font-style: italic; 
 	text-align: center;
 	padding: 20px;	
-	background-color: #90C7E3;
-	width: 105.6%;
-	margin-left: -10%;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+
 
 }
 
@@ -318,6 +322,7 @@ input[id = "myArrival"]{
  fieldset{
  	border:0;
  }
+ 
 
 }
 
