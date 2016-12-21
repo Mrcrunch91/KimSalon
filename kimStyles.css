@@ -229,15 +229,6 @@ tr:nth-child(odd) {
 	display: none;
 }
 
-p label{	
-	display: inline-block;
-	width:15%;	
-	text-align: right;
-	color: #808080 ;
-	font-size: 12pt;
-	padding-right:5px;
-	font-family: Times;	
-}
 
 
 input[type = submit]{
@@ -322,11 +313,24 @@ input[id = "myArrival"]{
  	border:0;
  }
 
- #timeControl p {
+ #timeControl label{
+ 	color:blue;
+ 	font-weight: bold;
  	margin: 0;
- 	display: block;
  	text-align: left;
+ 	font-size: 10pt;
+ 	
  }
+
+ #timeControl p{	
+	display: inline-block;		
+	color: #808080 ;
+	font-size: 12pt;
+	padding-right:0px;
+	font-family: Times;	
+	text-align: right;
+	margin:0;
+}
  
  h4{
  	margin-bottom: 1%;
