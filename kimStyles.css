@@ -321,7 +321,16 @@ input[id = "myArrival"]{
  fieldset{
  	border:0;
  }
+
+ #timeControl p {
+ 	margin: 0;
+ 	display: block;
+ 	text-align: left;
+ }
  
+ h4{
+ 	margin-bottom: 1%;
+ }
 
 }
 
@@ -643,6 +652,11 @@ p label{
 
 fieldset{
  	border:0;
+ }
+
+ #timeControl p{
+ 	background-color: green;
+
  }
 
 
