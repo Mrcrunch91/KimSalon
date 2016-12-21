@@ -40,3 +40,15 @@ $(function(){
 });
 //Placeholder for arrival time form row.
 document.getElementById("myArrival").placeholder = "mm/dd/yyyy";
+
+function initMap(){
+	var uluru = {lat: 28.6729651, lng: -81.5025715};
+	var map = new google.maps.Map(document.getElementById('map'),{
+		zoom: 18, center: uluru
+	});
+
+	var marker = new google.maps.Marker({
+		position:uluru,
+		map: map
+	});
+}

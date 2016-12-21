@@ -3,7 +3,7 @@ body{
 	height : 100%;
 	color : #808080;
 	font-family : Arial;
-	background : linear-gradient(0deg, #00e600,white 90%) no-repeat;
+	background : linear-gradient(0deg, #00e600,white 50%) no-repeat;
 	width:100%;
 }
 
@@ -171,6 +171,7 @@ h1{
 	padding-top: 10px;
 	font-size: 90%;
 	padding-bottom: 2%;
+	margin-left: 67%;
 }
 
 
@@ -343,7 +344,7 @@ input[id = "myArrival"]{
  }
 
  h5{
- 	margin-top:-1%;
+ 	margin-top:1%;
  	color:red;
  	font-weight: bold;
  	font-family: georgia;
@@ -351,6 +352,13 @@ input[id = "myArrival"]{
 
  .sidePanel{
  	background-color:green;
+ }
+
+ #map{
+ 	width: 40%;
+ 	height: 200px;
+ 	background-color: gray;
+ 	margin-left: 55%;
  }
 
 }
