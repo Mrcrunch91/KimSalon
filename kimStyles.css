@@ -3,7 +3,7 @@ body{
 	height : 100%;
 	color : #808080;
 	font-family : Arial;
-	background : linear-gradient(0deg, #00e600,white 50%) no-repeat;
+	background : linear-gradient(0deg, #00e600,white 70%) no-repeat;
 	width:100%;
 }
 
@@ -171,7 +171,7 @@ h1{
 	padding-top: 10px;
 	font-size: 90%;
 	padding-bottom: 2%;
-	margin-left: 67%;
+	margin-left: 70%;
 }
 
 
@@ -200,6 +200,7 @@ label{
 	font-weight: bold;
 	color: black;
 	font-family: Georgia;
+	width:50%;
 }
 
 
@@ -358,7 +359,21 @@ input[id = "myArrival"]{
  	width: 40%;
  	height: 200px;
  	background-color: gray;
- 	margin-left: 55%;
+ 	margin-left: 58%;
+ 	margin-top: 0%;
+ }
+
+ #beauty{
+ 	background-image: url(innerBeauty.jpg);
+	height:225px;
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+	width:30%;
+
+ }
+
+ #quote{
+ 	width:40%;
  }
 
 }
