@@ -170,9 +170,9 @@
 		padding-top: 10px;
 		font-size: 90%;
 		padding-bottom: 0%;
-		margin-left: 67.5%;
+		margin-left: 68%;
 		width:25%;
-		margin-top: -100px;
+		margin-top: -130px;
 		position:static;
 
 	}
@@ -204,7 +204,7 @@
 		color: black;
 		font-family: Georgia;
 		width:50%;
-		margin-left: 10%;
+		margin-left: 6%;
 	}
 
 
@@ -367,6 +367,7 @@
 		border: 3px solid black;
 		float:left;
 		margin-left:20%;
+		border-radius: 50px;
 		
 	}
 
@@ -378,13 +379,15 @@
 		width:38%;
 		margin-top: 2.5%;		
 		float:left;	
+		border-radius: 30px;
 		}
 
 	#theMessage p{
-		width:45%;
+		width:39%;
 		font-family: georgia;	
 		color: #00e600;
 		font-weight: bold;
+		padding-top: 17em;
 
 	}
 
