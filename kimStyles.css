@@ -1,380 +1,396 @@
 @media screen and (min-width:64em){ 
-body{		
-	height : 100%;
-	color : #808080;
-	font-family : Arial;
-	background : linear-gradient(0deg, #00e600,white 70%) no-repeat;
-	width:100%;
-}
+	body{		
+		height : 100%;
+		color : #808080;
+		font-family : Arial;
+		background : linear-gradient(0deg, #00e600,white 70%) no-repeat;
+		width:100%;
+	}
 
-header{	
-	background-color:#00e600;
-	color: #FFFFFF;
-	margin-bottom:0;
-	font-size: 30px;
-	font-weight:bold;
-	background-image: url(colourLabLogo.png);
-	background-repeat: no-repeat;
-	background-position: top left;
-	background-size: 120px 80px;
-	padding-top: .5em;
-	height: 60px;
-	text-align: center;
-	font-size: 30pt;
-	font-family: georgia
-}
-
-
-nav ul{
-	list-style: none;
-	font-size: 1.2em;
-	float: left;
-	width:160px;	
-	padding: 0px;
-	margin-left: 20px;
-}
-
-nav a{
-	text-decoration: none;
-	font-weight: bold;
-}
-
-main ul{
-	list-style-image: url("images/marker.gif");	
-}
-
-a:link{
-	color: #000033;
-}
-
-a:visited{
-	color: #344873;
-}
-a:hover{
-	color:#FFFFFF;
-}
-
-#main-image{
-	padding-top: 30px;		
-	background-image: url(indexImage.jpg);
-	height:190px;
-	background-size: 100% 100%; 
-	background-repeat: no-repeat;
-	margin-left:19.2%;
-
-}
-
-main{
-	background-color: #FFFFFF;
-	margin-left: 19.2%;
-	padding-left: 5%;
-	padding-top: 5px;		
-	width:75.8%;
-}
-
-#newMain{
-	background-color: #FFFFFF;
-	margin-left: 20%;
-	padding-left: 30px;
-	padding-top: 1em;
-	width: 75.5%;
-	
-}
-
-#accommodations-image{
-	
-	height:300px;
-	background-image: url(images/bungalow-main.jpg);
-	background-size: 100% 100%; 
-	background-repeat: no-repeat;
-	margin-left:190px;
-}
-#activities-image{
-	padding-top: 30px;	
-	height:300px;
-	background-image:url(images/trail-main.jpg);
-	background-size: 100% 100%; 
-	background-repeat: no-repeat;
-	margin-left:190px;
-}
-
-#wrapper{	
-	vertical-align: middle;
-	width: 73%;			
-	background-color: #ff471a;
-	box-shadow:3px 3px #333333;
-	min-width: 20%;
-	max-width: 100%;	
-	margin-left: 12%;	
-}
-
-footer{
-	font-size: 75%;
-	font-family: Georgia;
-	font-style: italic; 
-	text-align: center;
-	padding: 20px;
-	background-color: #FFFFFF;
-	width: 75.3%;
-	margin-left: -20%;
-}
-
-#beef{
-	font-size: 75%;
-	font-family: Georgia;
-	font-style: italic; 
-	text-align: center;
-	padding: 20px;	
-	width: 90%;
-	margin-right: auto;
-	margin-left: auto;
-
-}
+	header{	
+		background-color:#00e600;
+		color: #FFFFFF;
+		margin-bottom:0;
+		font-size: 30px;
+		font-weight:bold;
+		background-image: url(colourLabLogo.png);
+		background-repeat: no-repeat;
+		background-position: top left;
+		background-size: 120px 80px;
+		padding-top: .5em;
+		height: 60px;
+		text-align: center;
+		font-size: 30pt;
+		font-family: georgia
+	}
 
 
-nav.one{
-	font-weight: bold;	
-}
-.one a{
-	text-decoration: none;
-}
+	nav ul{
+		list-style: none;
+		font-size: 1.2em;
+		float: left;
+		width:160px;	
+		padding: 0px;
+		margin-left: 20px;
+	}
 
-h2{
-	color:#3399CC;
-	font-family: Times;
-	font-weight: bold;
-	font-size: 25pt;
+	nav a{
+		text-decoration: none;
+		font-weight: bold;
+	}
 
-}
+	main ul{
+		list-style-image: url("images/marker.gif");	
+	}
 
-dt,h3{
-	color:#000033;
-	font-family: Times;
-	font-weight: bold;
-}
+	a:link{
+		color: #000033;
+	}
 
-.resort{
-	color:#5C7FA3;
-	font-weight: bold;
-}
+	a:visited{
+		color: #344873;
+	}
+	a:hover{
+		color:#FFFFFF;
+	}
 
-h1{
-	font-family: Times;
-	margin-top: 0;
-}
-.theZoom{
-
-
-}
-
-.contact{
-	padding-top: 10px;
-	font-size: 90%;
-	padding-bottom: 2%;
-	margin-left: 70%;
-}
-
-
-p.copyright{
-	text-align: center;
-}
-
-table{
-	border-spacing: 0;
-	border-collapse: collapse;	
-	width:90%;
-	margin: 20px auto; 
-
-}
-
-
-td{	
-	border: 2px solid #4d94ff;
-	text-align: center;
-	color: black;
-	padding-bottom: 7px;	
-}
-
-label{
-	font-size: 14pt;
-	font-weight: bold;
-	color: black;
-	font-family: Georgia;
-	width:50%;
-}
-
-
- table thead,th{
-	border: 2px solid #4d94ff;
-	background:#000066;
-	color:white;
-	height: 55px;
-	width:150px;    
-}
-
-tr:nth-child(even) {
-	background-color: #cce6ff;
-}
-
-
-tr:nth-child(odd) {
-	background-color: white;
-}
-
-#table-1 .left{
-	text-align: left;
-}
-
-#table-1 a{
-	color: blue;
-}
-.mobiletel {
-	display: none;
-}
-
-
-
-input[type = submit]{
-	background-color: #90C7E3;
-	position: relative;
-	left: 5%;	
-}
-input[type = number]{
-	width: 10%;
-	-moz-appearance: textfield;
-}
-input[id = "myPhone"]{
-	width: 31.5%;
-}
-
-
-p input{	
-	text-align: left;
-		
-}
-
-textarea{
-	width: 35%;	
-	font-size: 5px;
-}
-.goat{
-	height:40%;
-	position: relative;
-	bottom: 2.5em;
-}
-
-#hoom{
-	display: inline-block;
-	padding-top: 5px;
-	width: 100%;
-}
-
-#tree{
-	position: relative;
-	bottom: 10px;
-	width: 100%;
-}
-
-form{
-	background-color: #d9d9d9;	
-	box-shadow: 2px 2px  #d9d9d9;	
-	padding-bottom: 2em;
-	width:97%;
-	border-color:#90C7E3;
-	border-style: solid;
-	border-width: .125em;
+	#main-image{
+		padding-top: 30px;		
+		background-image: url(indexImage.jpg);
+		height:190px;
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+		margin-left:19.2%;
 
 	}
 
-.highlight1 td{
-	background: yellow!important;	
-	color:red!important;
-}
+	main{
+		background-color: #FFFFFF;
+		margin-left: 19.2%;
+		padding-left: 5%;
+		padding-top: 5px;		
+		width:75.8%;
+	}
 
-.comments{
-	height:3em;
-	width:50%;
-	font-size: 12pt;
-}
+	#newMain{
+		background-color: #FFFFFF;
+		margin-left: 20%;
+		padding-left: 30px;
+		padding-top: 1em;
+		width: 75.5%;
 
-input[id = "myFName"]{
-	width:35%;
-}
+	}
 
-input[id = "myLName"]{
-	width:35%;
-}
+	#accommodations-image{
 
-input[id = "myEmail"]{
-	width:65%;
-}
+		height:300px;
+		background-image: url(images/bungalow-main.jpg);
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+		margin-left:190px;
+	}
+	#activities-image{
+		padding-top: 30px;	
+		height:300px;
+		background-image:url(images/trail-main.jpg);
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+		margin-left:190px;
+	}
 
-input[id = "myArrival"]{
-	width:20%;
-}
- fieldset{
- 	border:0;
- }
+	#wrapper{	
+		vertical-align: middle;
+		width: 73%;			
+		background-color: #ff471a;
+		box-shadow:3px 3px #333333;
+		min-width: 20%;
+		max-width: 100%;	
+		margin-left: 12%;	
+	}
 
- #timeControl label{
- 	color:blue;
- 	font-weight: bold;
- 	margin: 0;
- 	text-align: right;
- 	font-size: 10pt;
- 	width:12%;
- 	display: inline-block;
- 	margin-left: -3%;
- 	
- }
+	footer{
+		font-size: 75%;
+		font-family: Georgia;
+		font-style: italic; 
+		text-align: center;
+		padding: 20px;
+		background-color: #FFFFFF;
+		width: 75.3%;
+		margin-left: -20%;
+	}
 
- #timeControl p{	
-	display: inline;		
-	color: #808080 ;
-	font-size: 12pt;
-	padding-right:0px;
-	font-family: Times;	
-	text-align: left;
-	margin:0;
-	width: 0%;
-}
- 
- h4{
- 	margin-bottom: 1%;
- 	color: green;
- }
+	#beef{
+		font-size: 75%;
+		font-family: Georgia;
+		font-style: italic; 
+		text-align: center;
+		padding: 20px;	
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
 
- h5{
- 	margin-top:1%;
- 	color:red;
- 	font-weight: bold;
- 	font-family: georgia;
- }
+	}
 
- .sidePanel{
- 	background-color:green;
- }
 
- #map{
- 	width: 40%;
- 	height: 200px;
- 	background-color: gray;
- 	margin-left: 58%;
- 	margin-top: 0%;
- }
+	nav.one{
+		font-weight: bold;	
+	}
+	.one a{
+		text-decoration: none;
+	}
 
- #beauty{
- 	background-image: url(innerBeauty.jpg);
-	height:225px;
-	background-size: 100% 100%; 
-	background-repeat: no-repeat;
-	width:30%;
+	h2{
+		color:#3399CC;
+		font-family: Times;
+		font-weight: bold;
+		font-size: 25pt;
 
- }
+	}
 
- #quote{
- 	width:40%;
- }
+	dt,h3{
+		color:#000033;
+		font-family: Times;
+		font-weight: bold;
+	}
+
+	.resort{
+		color:#5C7FA3;
+		font-weight: bold;
+		margin-left: 0%;
+	}
+
+	h1{
+		font-family: Times;
+		margin-top: 0;
+	}
+	.theZoom{
+
+
+	}
+
+	.contact{
+		padding-top: 10px;
+		font-size: 90%;
+		padding-bottom: 0%;
+		margin-left: 71.3%;
+		width:20%;
+		margin-top: -200px;
+		position:static;
+
+	}
+
+
+	p.copyright{
+		text-align: center;
+	}
+
+	table{
+		border-spacing: 0;
+		border-collapse: collapse;	
+		width:90%;
+		margin: 20px auto; 
+
+	}
+
+
+	td{	
+		border: 2px solid #4d94ff;
+		text-align: center;
+		color: black;
+		padding-bottom: 7px;	
+	}
+
+	label{
+		font-size: 14pt;
+		font-weight: bold;
+		color: black;
+		font-family: Georgia;
+		width:50%;
+		margin-left: 10%;
+	}
+
+
+	table thead,th{
+		border: 2px solid #4d94ff;
+		background:#000066;
+		color:white;
+		height: 55px;
+		width:150px;    
+	}
+
+	tr:nth-child(even) {
+		background-color: #cce6ff;
+	}
+
+
+	tr:nth-child(odd) {
+		background-color: white;
+	}
+
+	#table-1 .left{
+		text-align: left;
+	}
+
+	#table-1 a{
+		color: blue;
+	}
+	.mobiletel {
+		display: none;
+	}
+
+
+
+	input[type = submit]{
+		background-color: #90C7E3;
+		position: relative;
+		left: 5%;	
+	}
+	input[type = number]{
+		width: 10%;
+		-moz-appearance: textfield;
+	}
+	input[id = "myPhone"]{
+		width: 31.5%;
+	}
+
+
+	p input{	
+		text-align: left;
+		
+	}
+
+	textarea{
+		width: 35%;	
+		font-size: 5px;
+	}
+	.goat{
+		height:40%;
+		position: relative;
+		bottom: 2.5em;
+	}
+
+	#hoom{
+		display: inline-block;
+		padding-top: 5px;
+		width: 100%;
+	}
+
+	#tree{
+		position: relative;
+		bottom: 10px;
+		width: 100%;
+	}
+
+	form{
+		background-color: #d9d9d9;	
+		box-shadow: 2px 2px  #d9d9d9;	
+		padding-bottom: 2em;
+		width:97%;
+		border-color:#90C7E3;
+		border-style: solid;
+		border-width: .125em;
+
+	}
+
+	.highlight1 td{
+		background: yellow!important;	
+		color:red!important;
+	}
+
+	.comments{
+		height:3em;
+		width:50%;
+		font-size: 12pt;
+	}
+
+	input[id = "myFName"]{
+		width:35%;
+	}
+
+	input[id = "myLName"]{
+		width:35%;
+	}
+
+	input[id = "myEmail"]{
+		width:65%;
+	}
+
+	input[id = "myArrival"]{
+		width:20%;
+	}
+	fieldset{
+		border:0;
+	}
+
+	#timeControl label{
+		color:blue;
+		font-weight: bold;
+		margin: 0;
+		text-align: right;
+		font-size: 10pt;
+		width:12%;
+		display: inline-block;
+		margin-left: -3%;
+
+	}
+
+	#timeControl p{	
+		display: inline;		
+		color: #808080 ;
+		font-size: 12pt;
+		padding-right:0px;
+		font-family: Times;	
+		text-align: left;
+		margin:0;
+		width: 0%;
+	}
+
+	h4{
+		margin-bottom: 1%;
+		color: green;
+	}
+
+	h5{
+		margin-top:1%;
+		color:red;
+		font-weight: bold;
+		font-family: georgia;
+	}
+
+	.sidePanel{
+		background-color:green;
+	}
+
+	#map{
+		width: 30%;
+		height: 225px;
+		background-color: gray;
+		margin-left: 65%;
+		margin-top: -28%;
+		border: 3px solid black;
+	}
+
+	#beauty{
+		background-image: url(innerBeauty.jpg);
+		height:245px;
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+		width:38%;
+		margin-top: 2.5%
+
+	}
+
+	#quote{
+		width:40%;
+
+		padding-bottom: 10%;
+	}
+
+	.hours{
+		margin-top: 70px;
+
+	}
+
 
 }
 
@@ -599,112 +615,112 @@ input[id = "myArrival"]{
 	}
 
 	.mobiletel{
-	display: none;
-}
+		display: none;
+	}
 
-input[type = submit]{
-	background-color: #90C7E3;
-	position: relative;
-	left: 5%;	
-}
-input[type = number]{
-	width: 5%;
-	-moz-appearance: textfield;
-}
-input[type = tel]{
-	width: 31.5%;
-}
+	input[type = submit]{
+		background-color: #90C7E3;
+		position: relative;
+		left: 5%;	
+	}
+	input[type = number]{
+		width: 5%;
+		-moz-appearance: textfield;
+	}
+	input[type = tel]{
+		width: 31.5%;
+	}
 
-input[id = "myFName"]{
-	width:35%;
-}
+	input[id = "myFName"]{
+		width:35%;
+	}
 
-input[id = "myLName"]{
-	width:35%;
-}
+	input[id = "myLName"]{
+		width:35%;
+	}
 
-input[id = "myEmail"]{
-	width:50%;
-}
+	input[id = "myEmail"]{
+		width:50%;
+	}
 
-input[id = "myArrival"]{
-	width:15%;
-}
+	input[id = "myArrival"]{
+		width:15%;
+	}
 
-.goat{
-	height:40%;
-	position: relative;
-	bottom: 1.5em;
-
-}
-
-#hoom{
-	padding-top: 5px;
-}
-
-#tree{
-	position: relative;
-	bottom: 1em;
-	width: 100%;
-}
-
-form{
-	background-color: #d9d9d9;	
-	box-shadow: 3px 3px  #d9d9d9;	
-	padding-bottom: 2em;
-	border-color:#90C7E3;
-	border-style: solid;
-	border-width: .125em;
+	.goat{
+		height:40%;
+		position: relative;
+		bottom: 1.5em;
 
 	}
 
-.highlight1 td{
-	background: yellow!important;	
-	color:red!important;
-}
+	#hoom{
+		padding-top: 5px;
+	}
 
-.comments{
-	height:3em;
-	width:50%;;
-}
+	#tree{
+		position: relative;
+		bottom: 1em;
+		width: 100%;
+	}
 
-p label{	
-	display: inline-block;
-	width:20%;	
-	text-align: right;
-	color: #808080 ;
-	font-size: 12pt;
-	padding-right:5px;
-	font-family: Times;	
-}
+	form{
+		background-color: #d9d9d9;	
+		box-shadow: 3px 3px  #d9d9d9;	
+		padding-bottom: 2em;
+		border-color:#90C7E3;
+		border-style: solid;
+		border-width: .125em;
 
-#beef{
-	font-size: 75%;
-	font-family: Georgia;
-	font-style: italic; 
-	text-align: center;
-	padding: .5em;	
-	background-color: #90C7E3;
-	width: 105.6%;
-	margin-left: -5%;
+	}
 
-}
+	.highlight1 td{
+		background: yellow!important;	
+		color:red!important;
+	}
 
-#tuna{
-	background-color: white;
-	position: relative;
-	margin-bottom: 27%;
-	margin-top: 5%;
-}
+	.comments{
+		height:3em;
+		width:50%;;
+	}
 
-fieldset{
- 	border:0;
- }
+	p label{	
+		display: inline-block;
+		width:20%;	
+		text-align: right;
+		color: #808080 ;
+		font-size: 12pt;
+		padding-right:5px;
+		font-family: Times;	
+	}
 
- #timeControl p{
- 	background-color: green;
+	#beef{
+		font-size: 75%;
+		font-family: Georgia;
+		font-style: italic; 
+		text-align: center;
+		padding: .5em;	
+		background-color: #90C7E3;
+		width: 105.6%;
+		margin-left: -5%;
 
- }
+	}
+
+	#tuna{
+		background-color: white;
+		position: relative;
+		margin-bottom: 27%;
+		margin-top: 5%;
+	}
+
+	fieldset{
+		border:0;
+	}
+
+	#timeControl p{
+		background-color: green;
+
+	}
 
 
 
@@ -802,7 +818,7 @@ fieldset{
 		width: auto;	
 		font-size: 90%;	
 		margin-left:0;	
-			
+
 	}
 
 	#accommodations-image{
@@ -867,7 +883,7 @@ fieldset{
 	.contact a[href^=tel]{		
 		font-size: 90%;
 		color:blue;	
-			
+
 	}
 	.contact{
 		padding-bottom: 1em;
@@ -931,110 +947,110 @@ fieldset{
 	}
 
 
-input[type = submit]{
-	background-color: #90C7E3;
-	position: relative;
-	left: 5%;	
-}
-input[type = number]{
-	width: 10%;
-	-moz-appearance: textfield;
-}
-input[type = tel]{
-	width: 55%;;
-}
+	input[type = submit]{
+		background-color: #90C7E3;
+		position: relative;
+		left: 5%;	
+	}
+	input[type = number]{
+		width: 10%;
+		-moz-appearance: textfield;
+	}
+	input[type = tel]{
+		width: 55%;;
+	}
 
-input[id = "myFName"]{
-	width:55%;
-}
+	input[id = "myFName"]{
+		width:55%;
+	}
 
-input[id = "myLName"]{
-	width:55%;
-}
+	input[id = "myLName"]{
+		width:55%;
+	}
 
-input[id = "myEmail"]{
-	width:70%;
-}
+	input[id = "myEmail"]{
+		width:70%;
+	}
 
-input[id = "myArrival"]{
-	width:25%;
-}
+	input[id = "myArrival"]{
+		width:25%;
+	}
 
-.goat{
-	height:40%;
-	position: relative;
-	bottom: .25em;
-	display: block;
-	text-align: left;
-
-}
-
-#hoom{
-	padding-top: 5px;
-	position:relative;
-	display:block;
-}
-
-#tree{
-	position: relative;
-	bottom: 1em;
-	width: 100%;
-}
-
-form{
-	background-color: #d9d9d9;	
-	box-shadow: 3px 3px  #d9d9d9;	
-	padding-bottom: 2em;
-	border-color:#90C7E3;
-	border-style: solid;
-	border-width: .125em;
+	.goat{
+		height:40%;
+		position: relative;
+		bottom: .25em;
+		display: block;
+		text-align: left;
 
 	}
 
-.highlight1 td{
-	background: yellow!important;	
-	color:red!important;
-}
+	#hoom{
+		padding-top: 5px;
+		position:relative;
+		display:block;
+	}
 
-.comments{
-	height:3em;
-	width:75%;
-	margin-left: 3%;
-}
+	#tree{
+		position: relative;
+		bottom: 1em;
+		width: 100%;
+	}
 
-p label{	
-	display: inline-block;
-	width:125px;	
-	text-align: right;
-	color: #808080 ;
-	font-size: 12pt;
-	padding-right:5px;
-	font-family: Times;	
-	text-align: left;
-	margin-left: 3%;
-}
+	form{
+		background-color: #d9d9d9;	
+		box-shadow: 3px 3px  #d9d9d9;	
+		padding-bottom: 2em;
+		border-color:#90C7E3;
+		border-style: solid;
+		border-width: .125em;
 
-#beef{
-	background-color: #90C7E3;
-	margin-left: -5%;
-}
+	}
 
-#tuna{
-	background-color: white;
-	position: relative;
-	margin-bottom: 10%;
-	margin-top: 5%;	
-}
+	.highlight1 td{
+		background: yellow!important;	
+		color:red!important;
+	}
 
-input{
-	display: block;
-	text-align: left;
-	margin-left: 3%;
-}
+	.comments{
+		height:3em;
+		width:75%;
+		margin-left: 3%;
+	}
 
-fieldset{
- 	border:0;
- }
+	p label{	
+		display: inline-block;
+		width:125px;	
+		text-align: right;
+		color: #808080 ;
+		font-size: 12pt;
+		padding-right:5px;
+		font-family: Times;	
+		text-align: left;
+		margin-left: 3%;
+	}
+
+	#beef{
+		background-color: #90C7E3;
+		margin-left: -5%;
+	}
+
+	#tuna{
+		background-color: white;
+		position: relative;
+		margin-bottom: 10%;
+		margin-top: 5%;	
+	}
+
+	input{
+		display: block;
+		text-align: left;
+		margin-left: 3%;
+	}
+
+	fieldset{
+		border:0;
+	}
 
 }
 
