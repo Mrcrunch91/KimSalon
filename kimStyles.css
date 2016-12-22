@@ -368,6 +368,7 @@
 		float:left;
 		margin-left:20%;
 		border-radius: 50px;
+		border-color: blue;
 		
 	}
 
@@ -385,7 +386,7 @@
 	#theMessage p{
 		width:39%;
 		font-family: georgia;	
-		color: #00e600;
+		color: #42d7f4;
 		font-weight: bold;
 		padding-top: 17em;
 

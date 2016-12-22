@@ -9,16 +9,16 @@ var theMonths = ["January", "February", "March", "April", "May", "June", "July",
 "November", "December"];
 
 //Var array for days of the week.
-var theday = ["Sun","Mon ","Tue ", "Wed ", "Thur ", "Fri ", "Sat "];
+var theday = ["Sun, ","Mon, ","Tue, ", "Wed, ", "Thur, ", "Fri, ", "Sat, "];
 var theNum = house.getDay();
 
 
 var inputMonth = (theMonths[house.getMonth()]);
 
 //Variable string for footer date time.
-var toSend = ("Today is: " + theday[theNum] + " " + inputMonth + " "
-	+ house.getDate() + " " + house.getFullYear()) + " " + house.getHours() + ":" + house.getMinutes() + ":" + house.getSeconds() 
-	+ " GMT-0500 (Eastern Standard Time)";
+var toSend = ("Today is: " + theday[theNum] + "" + inputMonth + " "
+	+ house.getDate() + ", " + house.getFullYear()) + " " + house.getHours() + ":" + house.getMinutes() + ":" + house.getSeconds() 
++ " GMT-0500 (Eastern Standard Time)";
 
 //Display date inside of css div "east".
 document.getElementById("east").innerHTML = toSend;
