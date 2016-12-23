@@ -1,7 +1,7 @@
 @media screen and (min-width:64em){ 
 	body{		
-		height: 100%;		
-		background: linear-gradient(0deg, #00e600,white 70%) no-repeat;
+			
+		background: linear-gradient(0deg, #00e600,white 90%) no-repeat;
 		width:100%;
 	}
 
@@ -10,9 +10,9 @@
 		background-image: url(colourLabLogo.png);
 		background-repeat: no-repeat;
 		background-position: top left;
-		background-size: 140px 75px;
+		background-size: 145px 70px;
 		padding-top: .5em;
-		height: 65px;			
+		height: 60px;			
 	}
 
 	header label{
@@ -20,7 +20,7 @@
 		font-size: 25pt;
 		font-weight:bold;
 		font-family: georgia;		
-		margin-left: 41%;
+		margin-left: 40%;
 	}
 
 
@@ -69,6 +69,8 @@
 		padding-left: 5%;
 		padding-top: 5px;		
 		width:75.8%;
+		min-height: auto;
+
 	}
 
 	#newMain{
