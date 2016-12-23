@@ -1,25 +1,26 @@
 @media screen and (min-width:64em){ 
 	body{		
-		height : 100%;		
-		background : linear-gradient(0deg, #00e600,white 70%) no-repeat;
+		height: 100%;		
+		background: linear-gradient(0deg, #00e600,white 70%) no-repeat;
 		width:100%;
 	}
 
 	header{	
-		background-color:#00e600;
-		color: #FFFFFF;
-		margin-bottom:0;
-		font-size: 30px;
-		font-weight:bold;
+		background-color:#00e600;						
 		background-image: url(colourLabLogo.png);
 		background-repeat: no-repeat;
 		background-position: top left;
-		background-size: 120px 80px;
+		background-size: 140px 75px;
 		padding-top: .5em;
-		height: 60px;
-		text-align: center;
-		font-size: 30pt;
-		font-family: georgia
+		height: 65px;			
+	}
+
+	header label{
+		color: #FFFFFF;
+		font-size: 25pt;
+		font-weight:bold;
+		font-family: georgia;		
+		margin-left: 41%;
 	}
 
 
@@ -98,12 +99,12 @@
 
 	#wrapper{	
 		vertical-align: middle;
-		width: 73%;			
+		width: 85%;			
 		background-color: #ff471a;
-		box-shadow:3px 3px #333333;
+		box-shadow:4px 4px #333333;
 		min-width: 20%;
 		max-width: 100%;	
-		margin-left: 12%;	
+		margin-left: 7%;	
 	}
 
 	footer{
@@ -142,13 +143,18 @@
 		font-family: Times;
 		font-weight: bold;
 		font-size: 25pt;
+		padding-bottom: 2.5%;
+		margin-left: 42.5%;
 
 	}
 
 	dt,h3{
-		color:#000033;
-		font-family: Times;
+		color:blue;
+		font-family: georgia;
 		font-weight: bold;
+		text-align: center;
+		font-size: 16pt;
+
 	}
 
 	.resort{
@@ -198,18 +204,18 @@
 		padding-bottom: 7px;	
 	}
 
-	label{
+	#beauty label{
 		font-size: 14pt;
 		font-weight: bold;
-		color: black;
-		font-family: Georgia;
-		width:50%;
-		margin-left: 6%;
+		color: white;
+		font-family: Georgia;		
+		margin-left: 15%;
+		margin-bottom: 5%;		
 	}
 
 
-	table thead,th{
-		border: 2px solid #4d94ff;
+	table thead,th,tr{
+		border: none;
 		background:#000066;
 		color:white;
 		height: 55px;
@@ -224,10 +230,7 @@
 	tr:nth-child(odd) {
 		background-color: white;
 	}
-
-	#table-1 .left{
-		text-align: left;
-	}
+	
 
 	#table-1 a{
 		color: blue;
@@ -345,7 +348,7 @@
 
 	h4{
 		margin-bottom: 1%;
-		color: green;
+		color: green;		
 	}
 
 	h5{
@@ -396,6 +399,39 @@
 		margin-top: 50px;
 
 	}
+
+	.dataAlign{
+		text-align: center;
+	}
+	#theLeft{
+		width: 50%;		
+	}
+
+	
+
+	#theLeft thead td{
+		font-size: 16pt;
+		font-weight: bold;
+		color:red;
+		text-align: center;
+	}
+
+	#theRight{
+		width:55%;	
+		float:right;
+		margin-top:-22px;
+	}
+	
+
+	#theRight thead td{
+		font-size: 16pt;
+		font-weight: bold;
+		color:red;
+		text-align: center;
+	}
+
+
+	
 	
 
 }
