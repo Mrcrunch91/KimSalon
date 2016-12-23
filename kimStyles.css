@@ -144,11 +144,11 @@
 		font-weight: bold;
 		font-size: 25pt;
 		padding-bottom: 2.5%;
-		margin-left: 42.5%;
+		margin-left: 39%;
 
 	}
 
-	dt,h3{
+	dt{
 		color:blue;
 		font-family: georgia;
 		font-weight: bold;
@@ -350,6 +350,11 @@
 		margin-bottom: 1%;
 		color: green;		
 	}
+	#hours h4{
+		color:red;
+		margin-left:0;
+
+	}
 
 	h5{
 		margin-top:1%;
@@ -384,7 +389,7 @@
 		margin-top: 2.5%;		
 		float:left;	
 		border-radius: 30px;
-		}
+	}
 
 	#theMessage p{
 		width:39%;
@@ -395,7 +400,7 @@
 
 	}
 
-	.hours{
+	#hours{
 		margin-top: 50px;
 
 	}
@@ -430,6 +435,27 @@
 		text-align: center;
 	}
 
+	.theBenefits p, h4{
+		margin-left:20%;
+	}
+
+	#theLeft h3{
+		color:blue;
+		font-family: georgia;
+		font-weight: bold;
+		text-align: center;
+		font-size: 16pt;
+
+	}
+
+	#theRight h3{
+		color:blue;
+		font-family: georgia;
+		font-weight: bold;
+		text-align: center;
+		font-size: 16pt;
+
+	}
 
 	
 	
