@@ -1,6 +1,7 @@
 /*Javascript and jQuery */
 
 //Set variable house to get current local date. 
+
 var house = new Date();
 var theH = house.getHours();
 house.setHours(theH);
@@ -23,6 +24,7 @@ var toSend = ("Today is: " + theday[theNum] + "" + inputMonth + " "
 //Display date inside of css div "east".
 document.getElementById("east").innerHTML = toSend;
 
+
 //Highlights function for forms and tables data. Yellow for table row and red for table data. 
 $(document).ready(function(){
 	$('table tbody tr').hover(function(){
@@ -34,12 +36,16 @@ $(document).ready(function(){
 
 });
 
+
+
 //for Arrival time calander pick to implement in HTML pages. 
 $(function(){
 	$(".myArrival").datepicker();
 });
+
 //Placeholder for arrival time form row.
-document.getElementById("myArrival").placeholder = "mm/dd/yyyy";
+
+
 
 function initMap(){
 	var uluru = {lat: 28.6729651, lng: -81.5025715};
@@ -47,8 +53,24 @@ function initMap(){
 		zoom: 18, center: uluru
 	});
 
-	var marker = new google.maps.Marker({
+	var marker = new google.maps.Marker({		
 		position:uluru,
 		map: map
 	});
 }
+
+
+$(document).ready(function () {
+    var url = window.location.href;
+   
+
+    var activePage = url;
+    $("a").each(function () {
+        var linkPage = this.href;
+
+        if (activePage == linkPage) {
+            $(this).closest("li").addClass("current");
+        }
+    });
+});
+

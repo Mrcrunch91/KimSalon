@@ -20,17 +20,22 @@
 		font-size: 25pt;
 		font-weight:bold;
 		font-family: georgia;		
-		margin-left: 45%;
+		margin-left: 37%;
+		
 	}
 
 
 	nav ul{
 		list-style: none;
 		font-size: 1.2em;
-		float: left;
-		width:160px;	
+		float: left;		
 		padding: 0px;
-		margin-left: 20px;
+		margin-left: 1%;	
+		width:15%;	
+	}
+	nav li{
+		text-align: center;
+
 	}
 
 	nav a{
@@ -40,17 +45,17 @@
 
 	main ul{
 		list-style-image: url("images/marker.gif");	
-	}
+	}	
 
 	a:link{
-		color: #000033;
+		color: green;
 	}
 
 	a:visited{
 		color: #344873;
 	}
 	a:hover{
-		color:#FFFFFF;
+		color:#00e600;
 	}
 
 	#main-image{
@@ -106,19 +111,10 @@
 		box-shadow:4px 4px #333333;
 		min-width: 20%;
 		max-width: 100%;	
-		margin-left: 7%;	
+		margin-left: 7%;
+		border:3px solid black;	
 	}
-
-	footer{
-		font-size: 75%;
-		font-family: Georgia;
-		font-style: italic; 
-		text-align: center;
-		padding: 20px;
-		background-color: #FFFFFF;
-		width: 75.3%;
-		margin-left: -20%;
-	}
+	
 
 	#beef{
 		font-size: 75%;
@@ -151,7 +147,6 @@
 		text-align: center;
 		border-radius: 50px 50px;
 		padding:1%;
-		
 
 	}
 
@@ -190,9 +185,14 @@
 
 	}
 
+	.theMail{
+		margin-bottom: -10px;
+	}
 
-	p.copyright{
+
+	.copyright{
 		text-align: center;
+
 	}
 
 	table{
@@ -284,8 +284,7 @@
 	}
 
 	#tree{
-		position: relative;
-		bottom: 10px;
+		position: relative;		
 		width: 100%;
 	}
 
@@ -370,9 +369,7 @@
 		font-family: georgia;
 	}
 
-	.sidePanel{
-		background-color:green;
-	}
+	
 
 	#map{
 		width: 38%;
@@ -463,6 +460,12 @@
 		font-size: 16pt;
 
 	}
+	.current {
+		background-color:white ;			
+		border-radius: 50px 50px;
+		border: 2px solid black;
+	}
+
 
 	
 	
@@ -507,8 +510,7 @@
 		font-weight: bold;
 		list-style: none;
 		font-size: 1.2em;
-		float: none;
-		width:auto;			
+		float: none;					
 		margin: 0;			
 		overflow: hidden;	
 		padding-bottom: 0.25em;
@@ -521,11 +523,12 @@
 	nav li {
 		float: none;
 		display: inline;
+
 	}
 
 	nav li a{
 		padding: 0.5em;			
-		text-decoration: none;		
+		text-decoration: none;				
 	}
 	
 
