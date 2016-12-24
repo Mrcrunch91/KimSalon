@@ -199,6 +199,7 @@
 		border-collapse: collapse;	
 		width:90%;
 		margin: 20px auto; 
+		border:3px solid #ff6600;
 
 	}
 
@@ -357,7 +358,7 @@
 	}
 	#hours h4{
 		color:red;
-		margin-left:0;
+		margin-left:3.7%;
 
 	}
 
