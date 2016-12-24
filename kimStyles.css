@@ -1,6 +1,5 @@
 @media screen and (min-width:64em){ 
-	body{		
-			
+	body{			
 		background: linear-gradient(0deg, #00e600,white 90%) no-repeat;
 		width:100%;
 	}
