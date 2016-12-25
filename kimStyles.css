@@ -16,10 +16,10 @@
 
 	header label{
 		color: #FFFFFF;
-		font-size: 25pt;
+		font-size: 30pt;
 		font-weight:bold;
 		font-family: georgia;		
-		margin-left: 42.5%;
+		margin-left: 36%;
 		width:70%;
 		
 	}
@@ -389,6 +389,10 @@
 		margin-top: 2.5%;		
 		float:left;	
 		border-radius: 30px;
+	}
+
+	#beauty label{
+	margin-left: 7%;
 	}
 
 	#theMessage p{
