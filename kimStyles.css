@@ -19,7 +19,8 @@
 		font-size: 25pt;
 		font-weight:bold;
 		font-family: georgia;		
-		margin-left: 37%;
+		margin-left: 42.5%;
+		width:70%;
 		
 	}
 
@@ -30,14 +31,14 @@
 		float: left;		
 		padding: 0px;
 		margin-left: 1%;	
-		width:15%;	
+		width:15%;			
 	}
 	nav li{
 		text-align: center;
-
 	}
 
 	nav a{
+		color:#3333ff;
 		text-decoration: none;
 		font-weight: bold;
 	}
@@ -49,10 +50,7 @@
 	a:link{
 		color: green;
 	}
-
-	a:visited{
-		color: #344873;
-	}
+	
 	a:hover{
 		color:#00e600;
 	}
@@ -111,7 +109,8 @@
 		min-width: 20%;
 		max-width: 100%;	
 		margin-left: 7%;
-		border:3px solid black;	
+		border:3px solid black;
+
 	}
 	
 
@@ -168,10 +167,7 @@
 		font-family: Times;
 		margin-top: 0;
 	}
-	.theZoom{
-
-
-	}
+	
 
 	.contact{
 		padding-top: 10px;
