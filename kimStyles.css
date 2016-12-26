@@ -467,25 +467,27 @@
 	}
 
 	.icon{
-		width: 50px;
-		height:50px;
-							
-		background-image: url("theFacebookicon.png");
-		background-repeat: no-repeat;
+								
+		background-image: url("theFacebookicon.png");		
 		background-size: 50px 50px;
 		margin-left: 3.1%;
 		position:absolute;
-		top:170px;
-		left:3.3%;		
+			
 	}	
 
-	.icon:hover{
+	#advertise img:hover{
 		color:white;
 		background-color: white;
 	}
 
-	#advertise{		
+	#advertise img{		
 		position:relative;
+		width: 50px;
+		height:50px;
+		background-size: 50px 50px;	
+		top:230px;
+		left:6.1%;	
+		background-repeat: no-repeat;
 
 	}
 	
