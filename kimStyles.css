@@ -11,19 +11,19 @@
 		background-position: top left;
 		background-size: 145px 70px;
 		padding-top: .5em;
-		height: 60px;			
+		height: 60px;
+
 	}
 
 	header label{
 		color: #FFFFFF;
-		font-size: 30pt;
+		font-size: 35pt;
 		font-weight:bold;
 		font-family: georgia;		
-		margin-left: 36%;
+		margin-left: 37%;
 		width:70%;
 		
 	}
-
 
 	nav ul{
 		list-style: none;
@@ -466,7 +466,28 @@
 		border: 2px solid black;
 	}
 
+	.icon{
+		width: 50px;
+		height:50px;
+							
+		background-image: url("theFacebookIcon.png");
+		background-repeat: no-repeat;
+		background-size: 50px 50px;
+		margin-left: 3.1%;
+		position:absolute;
+		top:200px;
+		left:3.3%;		
+	}	
 
+	.icon:hover{
+		color:white;
+		background-color: white;
+	}
+
+	#advertise{		
+		position:relative;
+
+	}
 	
 	
 
