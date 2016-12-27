@@ -1,51 +1,59 @@
 @media screen and (min-width:64em){ 
-	body{			
-		background: linear-gradient(0deg, #00e600,white 60%) no-repeat;
+	body{		
+		
 		width:100%;
 	}
 
 	header{	
-		background-color:#00e600;						
-		background-image: url(colourLabLogo.png);
-		background-repeat: no-repeat;
-		background-position: top left;
-		background-size: 145px 70px;
-		padding-top: .5em;
-		height: 60px;
-
+		background-color:#00cc99;			
+		height: 5em;
+		width:105%;
+		margin:0;
+		margin-left: -2%;
+		margin-top:-8px;
+		position:fixed;
 	}
 
 	header label{
 		color: #FFFFFF;
-		font-size: 35pt;
+		font-size: 30pt;
 		font-weight:bold;
-		font-family: georgia;		
-		margin-left: 37%;
-		width:70%;
+		font-family:  Verdana;		
+		margin-left: 15%;
+		margin-top: 100px;		
 		
 	}
 
 	nav ul{
 		list-style: none;
-		font-size: 1.2em;
-		float: left;		
+		font-size: 1.2em;				
 		padding: 0px;
-		margin-left: 1%;	
-		width:15%;			
+		margin-left: 58%;	
+		width:38%;	
+		top:0;	
+		margin-top: -30px;	
+
 	}
 	nav li{
 		text-align: center;
+		display:inline;		
+		top:0px;	
+		margin:0;
+		border-radius: 5px 5px;
+		padding-top:.5em;
+		padding-bottom:.5em;
+		padding-left: 2em;
+		padding-right:2em;	
+		font-size: 14pt;
 	}
 
-	nav a{
-		color:#3333ff;
+	nav a{		
 		text-decoration: none;
-		font-weight: bold;
+		color:white;		
+		font-weight: bold;		
 	}
 
-	main ul{
-		list-style-image: url("images/marker.gif");	
-	}	
+	
 
 	a:link{
 		color: green;
@@ -56,10 +64,11 @@
 	}
 
 	#main-image{
-		padding-top: 30px;		
+		position:relative;
+		top: 100px;	
 		background-image: url(indexImage.jpg);
-		height:190px;
-		background-size: 100% 100%; 
+		height:200px;
+		background-size: 50% 50%; 
 		background-repeat: no-repeat;
 		margin-left:19.2%;
 
@@ -67,7 +76,7 @@
 
 	main{
 		background-color: #FFFFFF;
-		margin-left: 19.2%;
+		margin-left: 10%;
 		padding-left: 5%;
 		padding-top: 5px;		
 		width:75.8%;
@@ -99,19 +108,7 @@
 		background-size: 100% 100%; 
 		background-repeat: no-repeat;
 		margin-left:190px;
-	}
-
-	#wrapper{	
-		vertical-align: middle;
-		width: 85%;			
-		background-color: #ff471a;
-		box-shadow:4px 4px #333333;
-		min-width: 20%;
-		max-width: 100%;	
-		margin-left: 7%;
-		border:3px solid black;
-
-	}
+	}	
 	
 
 	#beef{
@@ -123,18 +120,12 @@
 		width: 90%;
 		margin-right: auto;
 		margin-left: auto;
-
+		margin-top: 100px;
 	}
 
-
-	nav.one{
-		font-weight: bold;	
-	}
-	.one a{
-		text-decoration: none;
-	}
-
+	
 	main h2{
+		margin-top: 100px;
 		color:#3399CC;
 		font-family: Times;
 		font-weight: bold;
@@ -460,10 +451,9 @@
 		font-size: 16pt;
 
 	}
-	.current {
-		background-color:white ;			
-		border-radius: 50px 50px;
-		border: 2px solid black;
+	.current {		
+		border: 1px solid white;
+		background-color: #00b386;
 	}
 
 	.icon{
