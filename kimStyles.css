@@ -4,7 +4,7 @@
 	}
 
 	header{	
-		background-color:#00cc99;			
+		background-color:white;			
 		height: 100px;
 		width:105%;		
 		margin-left: -2%;
@@ -12,24 +12,22 @@
 		position:fixed;
 		background-size: 100% 100%;
 		z-index:2000; 
-		border-bottom: 3px solid black;	
+		border-bottom: 3px solid #00cc99;	
 		display: inline;	
 	}		
 
 	nav ul{
 		list-style: none;					
 		padding: 0px;
-		margin-left: 60%;	
-		width:35%;			
-		margin-top: -20px;	
-		font-style: Verdana;
-		
+		margin-left: 55%;	
+		width:45%;			
+		margin-top: -20px;			
 	}
 
 	nav li{
 		display: inline-block;	
 		text-align: center;			
-		border-radius: 5px 5px;
+		border-radius: 10px 10px;
 		padding-top:.25em;
 		padding-bottom:.25em;
 		padding-left: 1em;
@@ -39,7 +37,7 @@
 
 	header nav ul li a{				
 		text-decoration: none;
-		color:white;		
+		color:blue;		
 		font-weight: bold;	
 		}	
 
@@ -53,13 +51,13 @@
 
 	#main-image{
 		position:relative;
-		margin-top: 100px;	
+		margin-top: 90px;	
 		background-image: url(indexImage.jpg);
 		height:300px;
 		background-size: 100% 100%; 
 		background-repeat: no-repeat;
-		margin-left:-3%;
-		width:100%;
+		margin-left:-21%;
+		width:132.5%;
 	}
 
 	main{
@@ -209,18 +207,15 @@
 	.container h4{
 		color:#33adff;
 		margin-left:0%;
-		font-size: 18pt;
-
+		font-size: 22pt;
 	}
 
-	.container h5{
-		
+	.container h5{		
 		color:#33adff;
 		font-weight: bold;
 		font-family: georgia;
 		font-size: 12pt;
 	}
-
 	
 
 	#map{			
@@ -247,7 +242,7 @@
 		margin-left: 7%;
 	}
 	#theMessage{
-		padding-top:10em;
+		padding-top:2em;
 	}
 
 	#theMessage p{
@@ -345,7 +340,7 @@
 	.main-menu a{	
 	position: relative;
 	text-decoration: none;
- 	color:white;
+ 	color:#00cc99;
     font-size:32pt;     
     margin-left: 15%;     
     top:22px; 
@@ -365,6 +360,49 @@
 		float:left;	
 		
 	}
+
+	.theContact{
+		width:100%;
+		display:block;
+
+
+	}
+
+	.thePhone{
+		width:100%;
+		background-color: #33adff;
+		height:4em;
+		display: inline-block;
+		margin-bottom: 2em;
+
+	}
+
+	.thePhone p{		
+			font-size: 20pt;
+			margin-top: 10px;
+			margin-left: 20%;
+			color: white;
+	}
+
+	.desktel{
+		margin-top:-55px;
+		margin-left:35%;
+		font-size: 16pt;
+		color:white;
+		
+	}
+
+	.theMail{
+		margin-top: -58px;
+		margin-left: 35%;		
+		color:white;
+	}
+
+	.theMail a{		
+		color:white;
+		font-size: 16pt;
+	}
+
 	
 
 
