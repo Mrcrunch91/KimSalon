@@ -37,7 +37,7 @@
 
 	header nav ul li a{				
 		text-decoration: none;
-		color:blue;		
+		color:#33adff;		
 		font-weight: bold;	
 		}	
 
@@ -46,7 +46,7 @@
 	}
 	
 	a:hover{
-		color:#00e600;
+		color:#cc0066;
 	}
 
 	#main-image{
@@ -67,16 +67,14 @@
 		padding-top: 5px;		
 		width:75.8%;
 		min-height: auto;
-		padding-bottom: 180px;
-
 	}
 
 
 	#footer{
 		font-size: 10pt;		
 		position:relative;
-		margin-top: -180px;
-		height:50px;
+		margin-top: 0px;
+		height:5px;
 		clear:both;
 	}
 
@@ -86,7 +84,7 @@
 
 	
 	main h2{
-		margin-top: 100px;
+		margin-top: 140px;
 		color:#3399CC;
 		font-family: Times;
 		font-weight: bold;
@@ -223,7 +221,7 @@
 		border: 3px solid black;		
 		border-radius: 50px;
 		border-color: blue;
-		margin-top: -10px;		
+		margin-top: 23px;		
 	}
 
 	#beauty{	
@@ -247,14 +245,14 @@
 	#theMessage p{
 		width:20%;
 		font-family: arial;	
-		color: black;
-		font-weight: bold;
-		font-size: 16pt;
+		color: black;		
+		font-size: 12pt;
 		text-align: center;
 	}
 
 	#theMessage label{	
-		font-size: 30pt;
+		font-size: 20pt;
+		font-weight: bold;
 	}
 	
 
@@ -264,8 +262,6 @@
 	#theLeft{
 		width: 50%;		
 	}
-
-	
 
 	#theLeft thead td{
 		font-size: 16pt;
@@ -310,8 +306,8 @@
 
 	}
 	.current {		
-		border: 1px solid white;
-		background-color: #00b386;
+		border: 2px solid white;
+		border-color: #00cc99;
 	}
 
 	.icon{
@@ -363,8 +359,7 @@
 	.theContact{
 		width:100%;
 		display:block;
-
-
+		margin-top: 25px;
 	}
 
 	.thePhone{
@@ -406,6 +401,21 @@
 
 	#forMap{
 		margin-left: 4em;
+	}
+
+	#theMessageBar{
+		margin-top: 1em;
+		height:3px;
+		background-color: #33adff;
+		width:6%;
+	}
+
+	#theBar{
+		margin-top: -15px;
+		height:3px;
+		background-color: #33adff;
+		width:20%;
+		margin-bottom: 1em;
 	}
 
 	
