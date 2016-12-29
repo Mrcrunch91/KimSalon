@@ -10,7 +10,7 @@ var theMonths = ["January", "February", "March", "April", "May", "June", "July",
 "November", "December"];
 
 //Var array for days of the week.
-var theday = ["Sun, ","Mon, ","Tue, ", "Wed, ", "Thur, ", "Fri, ", "Sat, "];
+var theday = ["Sunday, ","Monday, ","Tuesday, ", "Wednesday, ", "Thursday, ", "Friday, ", "Saturday, "];
 var theNum = house.getDay();
 
 
