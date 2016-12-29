@@ -37,16 +37,6 @@ $(document).ready(function(){
 });
 
 
-
-//for Arrival time calander pick to implement in HTML pages. 
-$(function(){
-	$(".myArrival").datepicker();
-});
-
-//Placeholder for arrival time form row.
-
-
-
 function initMap(){
 	var uluru = {lat: 28.6729651, lng: -81.5025715};
 	var map = new google.maps.Map(document.getElementById('map'),{
@@ -60,6 +50,7 @@ function initMap(){
 }
 
 
+
 $(document).ready(function () {
 	var url = window.location.href;
 	var activePage = url;
@@ -71,4 +62,3 @@ $(document).ready(function () {
 		}
 	});
 });
-
