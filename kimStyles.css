@@ -310,27 +310,20 @@
 		border-color: #00cc99;
 	}
 
-	.icon{
-
-		background-image: url("theFacebookicon.png");		
-		background-size: 50px 50px;
-		margin-left: 3.1%;
-		position:absolute;
+	#facebookIcon img{		
+		top:13px;
+		position: absolute;
+		margin-left: 13%;
+		width:40px; height:40px;
 
 	}	
 
-	 img{		
-		position:relative;
-		width: 50px;
-		height:50px;		
-		top:110px;
-		left:-9.5%;	
-		margin-bottom: 0;		
+	#facebookIcon p{
+		font-size: 16pt;
+		margin-left: 30%;
+		margin-top: 17px;
 	}
 
-	 img:hover{		
-		background-color: white;
-	}
 
 	.main-menu a{	
 	position: relative;
@@ -368,6 +361,7 @@
 		height:4em;
 		display: inline-block;
 		margin-bottom: 2em;
+		position: relative;
 
 	}
 
@@ -377,6 +371,7 @@
 			margin-left: 15%;
 			color: white;
 	}
+	
 
 	.desktel{
 		margin-top:-67px;
@@ -417,6 +412,8 @@
 		width:20%;
 		margin-bottom: 1em;
 	}
+
+	
 
 	
 
