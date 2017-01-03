@@ -21,8 +21,12 @@ var toSend = ("Today is: " + theday[theNum] + "" + inputMonth + " "
 	+ house.getDate() + ", " + house.getFullYear()) + " " + house.getHours() + ":" + house.getMinutes() + ":" + house.getSeconds() 
 + " GMT-0500 (Eastern Standard Time)";
 
+var theTrademark = ("&copy;" + " " + house.getFullYear() + " Colour Lab Salon Inc. All Rights Reserved.");
+
 //Display date inside of css div "east".
 document.getElementById("east").innerHTML = toSend;
+
+document.getElementById("trademark").innerHTML = theTrademark;
 
 
 //Highlights function for forms and tables data. Yellow for table row and red for table data. 
